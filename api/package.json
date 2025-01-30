@@ -1,0 +1,41 @@
+{
+  "name": "booktask-api",
+  "version": "1.0.0",
+  "description": "Personalized manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisihe/booktask-ts.git"
+  },
+  "keywords": [
+    "task",
+    "manager"
+  ],
+  "author": "Francis Ihejirika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisihe/booktask-ts/issues"
+  },
+  "homepage": "https://github.com/francisihe/booktask-ts#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.9.5",
+    "nodemailer": "^6.10.0"
+  }
+}
