@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import cors, { CorsOptions } from 'cors';
-import allowedDomains from '../config/allowedDomains';
+import allowedDomains from '../../config/allowedDomains';
 
 const corsOptions: CorsOptions = {
     origin: (origin, callback) => {

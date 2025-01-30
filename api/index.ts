@@ -1,7 +1,7 @@
 import express from 'express';
 import { NODE_ENV, PORT } from './config/constants';
 import connectToDatabase from './config/db/connectToDB';
-import { corsErrorHandler, corsMiddleware } from './middleware/corsErrorHandler';
+import { corsErrorHandler, corsMiddleware } from './middleware/cors/corsErrorHandler';
 
 import healthRouter from './routes/health.route';
 
