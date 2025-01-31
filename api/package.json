@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/francisihe/booktask-ts#readme",
   "devDependencies": {
+    "@types/config": "^3.3.5",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "nodemon": "^3.1.9",
